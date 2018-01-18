@@ -1,0 +1,151 @@
+.app{  
+  .navbar {
+    background-color:#333 !important;
+    margin-bottom: 0px !important;
+    border-bottom:0px !important;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 0px 2px #333;
+    padding: 5px;
+
+    .navbar-toggle{
+      background-color:#fff !important;
+    }
+    .navbar-toggle .icon-bar{
+      background-color:#333 !important;
+    }
+    .navbar-nav a.btn.button{
+      color:#333 !important;
+      background-color:#fff;
+      margin-top:8px;
+    }
+    .navbar-nav a.btn.button:hover{
+      background-color:#f1f1f1;
+      color:#333 !important;
+      margin-top:8px;
+    }
+
+    .navbar-nav > .active > a{
+      background:none;
+      color:#fff !important;
+    }
+    .navbar-nav li:hover a{
+      color:#fff !important;
+      background-color:#333;
+    }
+    .navbar-header .logo-sigalab{
+      max-width:300px;
+      position:relative;
+      top:40px;
+    }
+    .navbar-brand{
+      color:#fff !important;
+    }
+    .navbar-right {
+      li a{
+        color:#a3a3a3 !important;
+        font-size:18px;
+        padding-right:30px !important;
+      }
+      li.dropdown.open ul{
+        background-color:#333;
+      }
+      li.dropdown.open a{
+        background-color:#333 !important;
+      }
+    }
+  }
+  
+  .panel{
+    border:none;
+    box-shadow:none;
+    background-color:transparent;
+  }
+  #home {
+    margin-top:-60px;
+  }
+  #content{
+    padding-top:60px;
+  }
+  .title.line.bottom:after{
+    content:'';
+    position:relative;
+    display: block;
+    left:0;
+    right:0;
+    top:100%;
+    margin: 10px auto;
+    width:10%;
+    height:2px;
+    background:#ddd;
+  }
+
+.card{
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius:4px;
+  text-align: center;
+  background-color:#fff;
+  padding:4px;
+  margin-bottom:20px;
+  
+  .content{
+    padding:5px;
+    h3{
+      font-weight: bold;
+      font-size:18px;
+      margin-top:5px;
+    }
+    h6{
+      font-weight: bold;
+      font-size:18px;
+      margin-top:5px;
+    }
+    a{
+      color:#636B6F;
+    }
+  }
+}
+
+  .form-group.has-errors input{border:1px solid #a94442;box-shadow: 0 2px 2px #e9e9e9;}
+
+  #footer{
+    background-color:#333;
+    border-top:2px solid #848484;
+    min-height:120px;
+    padding:20px;
+    text-align:center;
+    color:#fff; 
+
+    a{
+      color:#fff;
+    }
+
+    ul {
+      padding:0px !important;
+
+      li{
+        list-style: none;
+        color:#fff;
+        a{
+          color:#fff;
+        }
+      }
+    }
+  }
+
+  .seperator.whitespace.small{
+    height:120px;
+    width:100%;
+  }
+  .seperator.whitespace.medium{
+    height:160px;
+    width:100%;
+  }
+  .seperator.whitespace.large{
+    height:200px;
+    width:100%;
+  }
+  hr.horizontal-line{
+    border:1px solid #dedede;
+  }
+}

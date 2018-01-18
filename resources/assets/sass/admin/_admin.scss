@@ -1,0 +1,149 @@
+.admin{
+	.table {border: 1px solid #ddd;}
+	.sidebar{
+	  width:15%;
+  	background-color:#253A47;
+  	color: #C1BCB9;
+	  float:left;
+	  height:100%;
+	  min-height:100%;
+	  position:fixed;
+	  top:0;
+	  left:0;
+
+	  @media screen and (max-width: 680px) {
+		  .text {
+		    display: none;
+		  }  
+		  i {
+		    font-size:5vw;
+		  } 
+		  li{
+		  	text-align: center;
+		  	widht:auto;
+		  }
+		}
+
+	  i{
+	  	 margin-right:10px;	 
+	  	 width:30px;
+	  }
+
+		.title{
+		  height:40px;
+		  padding:10px;
+		  font-size:20px;
+		  font-size:1.2vw;
+		  background-color:#21333E;
+		}
+
+	  .heading{
+	  	padding:10px;
+	  	background-color:#253A47;
+	  	
+	  	.user-name{
+	  		font-size:20px;
+	  		font-size: 1.2vw;
+	  	}
+	  	.user-email{
+	  		font-size:18px;
+	  		font-size: 1vw;
+	  		word-wrap: break-word;
+	  	}
+		}
+	
+	  ul{
+  		padding-left:0px;
+	
+	  }
+	  ul li{	
+		  list-style: none;
+		  width:100%;
+		  border-bottom:1px solid #878282;
+		  padding-top:12px;
+		  padding-bottom:12px;
+		  padding-left:20px;
+	  }
+	  ul li a{
+	  	color: #C1BCB9;
+	 		font-size:18px;
+	 		font-size: 1vw;
+  	}
+  	li.active{
+		  border-left:10px solid #349886;
+		  background-color:#314D5B;
+		  padding-left:10px;
+		}
+  	a.active{
+		  color:#fff !important;
+		}
+	
+	}
+
+  .content{
+  	width:85%;
+  	margin-left: 15%;
+  	padding:20px;
+	}
+
+	.panel-heading{
+	  background-color:#349886 !important;
+	  color:#fff !important;
+	  font-weight: bold;
+	}
+
+	.navbar{
+		margin-bottom:0px;
+		border-bottom:0px;
+		padding-right:5%;
+		margin-left:15%;
+		width:85%;
+		padding-left:20px;
+		// border-bottom: 1px solid #ddd;
+		// box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+		background-color:transparent;
+	}
+	.navbar{
+	  background-color:#21333E !important;
+	  height:40px !important;
+	  padding:10px !important;
+	  min-height:40px !important;
+	}
+	.navbar-right{
+		margin-top:-10px !important;
+	  margin-right:20px !important;
+	  
+	}
+	.navbar-right a{
+	  color:#fff !important;
+	}
+	.action-bar .btn{
+	  margin-bottom:20px;
+	}
+	.empty-state{
+	  text-align: center;
+	  padding-top:40px;
+	  height:60vh;
+
+	  .fa{
+		  display: block;
+		  font-size:120px;
+		  color:#818181;
+	  }
+	  .no-results{
+		  display: block;
+		  font-weight: bold;
+		  font-size:22px;
+		  margin-top:20px;
+		  margin-bottom:20px;
+	  }
+	}
+	select option{
+	  padding:5px;
+	  border-bottom:1px solid #ddd;
+	}
+	select option:hover{
+	  cursor:pointer;
+	  color:#333;
+	}
+}

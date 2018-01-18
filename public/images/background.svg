@@ -1,0 +1,14 @@
+<svg width="725" height="1080" viewBox="0 0 725 1080" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Background</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-2393 2595)">
+<g id="Background">
+<g id="BG_LeftBlue">
+<use xlink:href="#path0_fill" transform="translate(2392 -2677)" fill="#333333"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" fill-rule="evenodd" d="M 258.894 66.605L 1.00032 418.365C 1.00032 418.365 403.282 1264.2 407.316 1271.76C 411.35 1279.31 1041 1265.41 1041 1265.41L 979.947 1.00433L 258.894 66.605Z"/>
+</defs>
+</svg>

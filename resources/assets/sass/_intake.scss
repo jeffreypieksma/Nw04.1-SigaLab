@@ -1,0 +1,80 @@
+.intake{
+    tr:first-of-type{
+        background-color:#333333;
+              color:#fff;
+    }
+    table{
+        border:1px solid #ddd;
+
+        tr{
+            &:first-of-type{
+              background-color:#333333;
+              color:#fff;
+            }
+            td{
+              border-right:1px solid #ddd;
+            }
+            td i:before{
+              margin-right:5px;
+            }         
+        }
+  
+    }
+
+    a:hover{
+        text-decoration:none;
+        background-color:#000 !important;
+    }
+    a.delete{
+      background-color:#333;
+      color:#fff;
+      border-radius:3px;   
+      padding:6px 12px;
+      margin-left:14px;
+      position:relative;
+      float:right;
+      margin-right:20px;
+      top:10px;
+
+    }
+
+    a.add_form_field{
+        background-color:#333;
+        color:#fff;
+        border-radius:3px;
+        display:block;
+        width:200px;
+        margin-top:20px;
+        margin-bottom:20px;
+        padding:6px 12px;
+        text-align:center;
+
+    }
+    .row.first{
+      margin-bottom:30px;
+    }
+    .block{
+        margin-bottom:30px;
+    }
+
+    .block .content{
+        background-color:#fff;
+        border-radius:3px;
+        padding:10px;
+        height:200px;
+        min-height:200px;
+        border: 1px solid #ddd;
+
+        border-radius: 0px 0px 4px 4px;
+        -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+
+    }
+    .block h2{
+        background-color:green;
+        color:#fff;
+        font-size:20px;
+        padding:10px;
+        margin-bottom:0px !important;
+    }
+}
